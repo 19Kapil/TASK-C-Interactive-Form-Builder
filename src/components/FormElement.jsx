@@ -6,6 +6,7 @@ import { ElementTypesText } from '../constants/elementTypes';
 import { openDrawer } from '../store/drawerSlice';
 import { removeEditorElement } from '../store/globalSlice';
 
+
 const TextInput = ({ placeHolder }) => (
   <div className="px-4 py-2 flex flex-col gap-1">
     {placeHolder}

@@ -6,6 +6,7 @@ import PreviewModal from './PreviewModal';
 const Toolbox = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
+  
   return (
     <div className="flex flex-col flex-1 gap-4 w-full max-w-xs min-w-[20rem]">
       <h1 className="text-center text-2xl">Drag From Here</h1>

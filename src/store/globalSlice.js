@@ -8,6 +8,7 @@ const generateEditorElement = (type) => {
     placeHolder: 'Placeholder Label',
   };
 
+  
   switch (type) {
     case 'text-input':
     case 'text-area':

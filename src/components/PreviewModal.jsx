@@ -6,6 +6,7 @@ import FormElement from './FormElement'
 const PreviewModal = ({ onClose }) => {
   const { editorElements } = useSelector((state) => state.global)
   const [isSubmitted, setIsSubmitted] = useState(false)
+  
 
   const handleSubmit = () => {
    

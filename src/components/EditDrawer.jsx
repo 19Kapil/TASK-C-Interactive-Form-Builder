@@ -6,6 +6,7 @@ import { HiPlusSm, HiMinusSm } from 'react-icons/hi'
 import { closeDrawer } from '../store/drawerSlice'
 import { updateEditorElement } from '../store/globalSlice'
 
+
 const EditDrawer = ({ activeElementId }) => {
   const { editorElements } = useSelector((state) => state.global)
   const element = editorElements.find(

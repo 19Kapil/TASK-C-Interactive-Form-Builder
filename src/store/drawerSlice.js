@@ -6,6 +6,7 @@ export const drawerSlice = createSlice({
     isOpen: false,
     activeElementId: null,
   },
+  
   reducers: {
     openDrawer: (state, action) => {
       const { id } = action.payload

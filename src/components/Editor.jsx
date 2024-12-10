@@ -6,6 +6,7 @@ import { insertEditorElement, moveEditorElement } from '../store/globalSlice';
 import DraggableTool from './DraggableTool';
 import FormElement from './FormElement';
 
+
 const Editor = () => {
   const { editorElements } = useSelector((state) => state.global);
   const dispatch = useDispatch();
