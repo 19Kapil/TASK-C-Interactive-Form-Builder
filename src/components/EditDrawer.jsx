@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
-import { ElementTypesText } from '../../constants/elementTypes'
+import { ElementTypesText } from '../constants/elementTypes'
 import { FaTimes } from 'react-icons/fa'
 import { HiPlusSm, HiMinusSm } from 'react-icons/hi'
-import { closeDrawer } from '../../store/drawerSlice'
-import { updateEditorElement } from '../../store/globalSlice'
+import { closeDrawer } from '../store/drawerSlice'
+import { updateEditorElement } from '../store/globalSlice'
 
 const EditDrawer = ({ activeElementId }) => {
   const { editorElements } = useSelector((state) => state.global)

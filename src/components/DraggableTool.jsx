@@ -1,8 +1,8 @@
 import { useRef } from 'react'
 import { useDrag, useDrop } from 'react-dnd'
 import { useDispatch } from 'react-redux'
-import { ItemTypes } from '../../constants/itemTypes'
-import { insertAtEditorElement } from '../../store/globalSlice'
+import { ItemTypes } from '../constants/itemTypes'
+import { insertAtEditorElement } from '../store/globalSlice'
 
 const DraggableTool = ({ type, index, moveElement, children }) => {
   const dispatch = useDispatch()
